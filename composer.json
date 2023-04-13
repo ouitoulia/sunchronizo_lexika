@@ -18,6 +18,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "ouitoulia/lexika": "^1"
+        "ouitoulia/lexika": "^1",
+        "drupal/migrate_plus": "^6",
+        "drupal/migrate_tools": "^6"
     }
 }
