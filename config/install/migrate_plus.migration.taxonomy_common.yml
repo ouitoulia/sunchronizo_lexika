@@ -104,4 +104,5 @@ migration_dependencies: {  }
 dependencies:
   enforced:
     module:
-      - scuola_taxonomy_data
+      - sunchronizo_lexika
+

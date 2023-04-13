@@ -5,4 +5,4 @@ source_type: JSON
 dependencies:
   enforced:
     module:
-      - scuola_taxonomy_data
+      - sunchronizo_lexika
