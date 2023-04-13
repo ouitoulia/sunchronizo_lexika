@@ -1,0 +1,23 @@
+{
+    "name": "ouitoulia/sunchronizo_lexika",
+    "description": "Sunchronìzo lexikà è modulo Drupal che importa le voci di tassonomia utilizzate dalle scuole.",
+    "type": "drupal-module",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/ouitoulia/sunchronizo_lexika",
+    "authors": [
+        {
+            "name": "Pietro Arturo Panetta",
+            "homepage":"https://www.drupal.org/u/arturopanetta",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ouitoulia/sunchronizo_lexika/issues",
+        "source": "https://github.com/ouitoulia/sunchronizo_lexika"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "ouitoulia/lexika": "^1"
+    }
+}
