@@ -9,10 +9,8 @@ $ composer require ouitoulia/sunchronizo_lexika
 $ drush -y en sunchronizo_lexika
 ```
 Questo è il risultato
-![Screenshot della lista delle migrazioni](docs/migrations.png "Screenshot della lista delle migrazioni")
 
-E queste sono le voci importate nel vocabolario "Percorsi di studio"
-![Screenshot della lista delle voci importate](docs/percorsi_di_studio.png "Screenshot della lista delle voci importate")
+![Screenshot della lista delle migrazioni](docs/migrations.png "Screenshot della lista delle migrazioni")
 
 ## Uso del modulo
 Puoi utilizzare il modulo:
@@ -21,3 +19,7 @@ Puoi utilizzare il modulo:
 
 In entrambi i casi, leggi la documentazione del modulo 
 Drupal `migrate` per maggiori dettagli.
+
+Di seguito un esempio delle voci importate nel vocabolario "Percorsi di studio"
+
+![Screenshot della lista delle voci importate](docs/percorsi_di_studio.png "Screenshot della lista delle voci importate")
