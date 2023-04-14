@@ -38,6 +38,7 @@ source:
     - 'https://ouitoulia.github.io/krene/taxonomy/destinazione_uso.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_autenticazioni.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_eventi.json'
+    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_incarichi.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_istituti.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_licenze.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_luoghi.json'
