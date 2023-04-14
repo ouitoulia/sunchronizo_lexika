@@ -1,6 +1,6 @@
 {
     "name": "ouitoulia/sunchronizo_lexika",
-    "description": "Sunchronìzo lexikà è modulo Drupal che importa le voci di tassonomia utilizzate dalle scuole.",
+    "description": "Sunchronìzo lexikà è un modulo Drupal che importa le voci di tassonomia utilizzate dalle scuole.",
     "type": "drupal-module",
     "license": "GPL-3.0-only",
     "homepage": "https://github.com/ouitoulia/sunchronizo_lexika",

@@ -1,5 +1,5 @@
 # Sunchronìzo lexikà
-Sunchronìzo lexikà è modulo Drupal che importa le voci di tassonomia utilizzate dalle scuole.
+Sunchronìzo lexikà è un modulo Drupal che importa le voci di tassonomia utilizzate dalle scuole.
 Questo modulo usa `drupal/migrate` per importare le voci presenti nel repository [Krène](https://github.com/ouitoulia/krene) 
 
 ## Installazione

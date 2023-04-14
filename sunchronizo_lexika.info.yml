@@ -1,5 +1,5 @@
 name: "Sunchronìzo lexikà"
-description: Sunchronìzo lexikà è modulo Drupal che importa le voci di tassonomia utilizzate dalle scuole.
+description: Sunchronìzo lexikà è un modulo Drupal che importa le voci di tassonomia utilizzate dalle scuole.
 package: "Ouitoulía"
 
 type: module
