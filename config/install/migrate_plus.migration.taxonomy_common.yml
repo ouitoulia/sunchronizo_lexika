@@ -42,6 +42,7 @@ source:
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_istituti.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_licenze.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_luoghi.json'
+    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_posti.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_progetti.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_servizi.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_strutture.json'
