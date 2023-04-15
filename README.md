@@ -4,7 +4,9 @@ Questo modulo usa `drupal/migrate` per importare le voci presenti nel repository
 
 ## Requisiti
 - Drupal: >= 10
-- Drupal profilo d'installazione `minimal`
+- Profilo Drupal: `minimal`
+- Moduli contrib: `migrate_plus`, `migrate_tools`
+- Moduli Ouitoulìa: `lexika`
 
 ## Installazione
 Per aggiungere e installare il modulo alla tua installazione esegui:
