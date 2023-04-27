@@ -1,6 +1,6 @@
 # Sunchronìzo lexikà!
 
-[GitHub](https://img.shields.io/github/license/ouitoulia/sunchronizo_lexika?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/ouitoulia/sunchronizo_lexika?style=for-the-badge)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ouitoulia/sunchronizo_lexika?sort=semver&style=for-the-badge)
 ![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/ouitoulia/sunchronizo_lexika/drupal/core?style=for-the-badge)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/ouitoulia/sunchronizo_lexika?style=for-the-badge)
