@@ -1,11 +1,10 @@
-id: taxonomy_common
-label: Voci di tassonomia comuni a tutti i gradi di istruzione
+id: taxonomy_attributi_dei_luoghi
+label: Voci di tassonomia attributi dei luoghi
 migration_group: scuola_taxonomy
 migration_tags:
   - json
   - scuola
   - taxonomy
-  - taxonomy_common
 
 source:
   plugin: url
@@ -29,25 +28,7 @@ source:
   # track_changes: false
 
   urls:
-    - 'https://ouitoulia.github.io/krene/taxonomy/anni_scolastici.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/argomenti.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/azioni.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/competenze.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/cosa_serve.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/destinatari.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/destinazione_uso.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/ruoli_persona.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_autenticazioni.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_eventi.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_incarichi.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_istituti.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_licenze.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_luoghi.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_posti.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_progetti.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_servizi.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_strutture.json'
-    - 'https://ouitoulia.github.io/krene/taxonomy/tipologia_supplenze.json'
+    - 'https://ouitoulia.github.io/krene/taxonomy/attributi_dei_luoghi.json'
 
   # An xpath-like selector corresponding to the items to be imported.
   item_selector: data
@@ -59,6 +40,9 @@ source:
     - name: tid
       label: 'ID del termine di tassonomia'
       selector: id
+    - name: icon
+      label: 'Icona'
+      selector: attributes/icon
     - name: name
       label: 'Il nome della voce di tassonomia'
       selector: attributes/name
@@ -80,12 +64,13 @@ process:
   tid: tid
   vid: type
   name: name
+  field_icona: icon
   parent_id:
     - plugin: skip_on_empty
       method: process
       source: parent_id
     - plugin: migration_lookup
-      migration: taxonomy_common
+      migration: taxonomy_materie_secondaria_primo_grado
   parent:
     plugin: default_value
     default_value: 0
@@ -108,4 +93,3 @@ dependencies:
   enforced:
     module:
       - sunchronizo_lexika
-
