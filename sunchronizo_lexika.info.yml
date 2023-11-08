@@ -11,7 +11,7 @@ dependencies:
   - drupal:migrate_tools
 
 # Information added by GitHub Action packaging script on 2023-11-08
-version: '1.2.0'
+version: '1.3.0'
 project: 'Sunchronizo_lexika'
-datestamp: 1699439619
-message: ' add icon field '
+datestamp: 1699441921
+message: ' review migration code'
