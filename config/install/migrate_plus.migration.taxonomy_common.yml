@@ -31,6 +31,7 @@ source:
   urls:
     - 'https://ouitoulia.github.io/krene/taxonomy/anni_scolastici.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/argomenti.json'
+    - 'https://ouitoulia.github.io/krene/taxonomy/attributi_dei_luoghi.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/azioni.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/competenze.json'
     - 'https://ouitoulia.github.io/krene/taxonomy/cosa_serve.json'
