@@ -40,12 +40,12 @@ source:
     - name: tid
       label: 'ID del termine di tassonomia'
       selector: id
-    - name: icon
-      label: 'Icona'
-      selector: attributes/icon
     - name: name
       label: 'Il nome della voce di tassonomia'
       selector: attributes/name
+    - name: icon
+      label: 'Icona'
+      selector: attributes/icon
     - name: description
       label: 'La descrizione della voce di tassonomia'
       selector: attributes/description
@@ -64,7 +64,10 @@ process:
   tid: tid
   vid: type
   name: name
-  field_icona: icon
+  field_icona:
+    - plugin: skip_on_empty
+      method: process
+      source: icon
   parent_id:
     - plugin: skip_on_empty
       method: process
