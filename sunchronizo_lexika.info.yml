@@ -10,8 +10,8 @@ dependencies:
   - drupal:migrate_plus
   - drupal:migrate_tools
 
-# Information added by GitHub Action packaging script on 2023-11-08
-version: '1.3.0'
+# Information added by GitHub Action packaging script on 2024-02-16
+version: '1.3.1'
 project: 'Sunchronizo_lexika'
-datestamp: 1699441921
-message: ' review migration code'
+datestamp: 1708071351
+message: ' up ci to checkout v4 and archive'
